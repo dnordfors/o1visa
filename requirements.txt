@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pydantic
+openai
+SQLAlchemy
+fastapi-utils
+python-jose[cryptography]
+python-multipart
+python-dotenv
+requests
+httpx
+pytest
+pytest-asyncio
+aiofiles
+jinja2

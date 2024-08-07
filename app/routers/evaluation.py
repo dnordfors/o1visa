@@ -11,7 +11,8 @@ async def evaluate_resume(resume: ResumeModel):
     officer.evaluate_applicant()
 
     return {
+        'O1-A_rated_likelihood': officer.rated_likelihood,
         'assessment_report': officer.assessment_report,
         'letter_to_candidate': officer.letter_to_candidate,
-        'complete_dialogue_thread': officer.messages
+        'complete_dialogue_thread': officer.messages,
     }
